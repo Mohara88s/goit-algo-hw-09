@@ -48,7 +48,7 @@ The dynamic programming function is 317308.8524207611 times slower than the gree
 
  - The time is almost unchanged - it works in O(n), where n is the number of denominations.
 
- - But it may not give the optimal answer if the set of coins is "non-standard".
+ - But it may not give the optimal answer if the set of coins is "non-standard" and not give the answer at all, for example, if a coin 1 is missing.
 
 ##### Dynamic programming (DP):
  - Guarantees the optimal result - the minimum number of coins.
